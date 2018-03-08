@@ -1,0 +1,19 @@
+html { 
+  background: url(../tender.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+@media only screen and (min-width : 320px) and (max-width : 480px) {
+  html {
+    /* background: url(../tender.jpg); */
+    background-position: center center;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-image: url(../tender2.gif), linear-gradient(#e6cfa3, #f0b942); /* W3C */
+
+    }
+  }
+ 
